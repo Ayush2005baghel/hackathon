@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.toppanel {
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+}
+.logopin {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.logo span {
+    font-size: 0.5;
+    font-weight: light;
+}
+.logoel {
+    display: flex;
+    flex-direction: column;
+}
+.logo i {
+    font-size: 3rem;
+}
+.logo {
+    display: flex;
+}
+.buttons a {
+    font-size: 1.3rem;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #283747;
+    border-radius: 8px;
+}
+.buttons a:hover{
+    background-color: #2d3e51;
+}
+.buttons a i {
+    font-size: 1.3rem;
+}
+.country {
+    background-color: #222f3d;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+}
+.login {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sign-in {
+    background-color: #007bff;
+    color: white;
+}
+.register {
+    background-color: #28a745;
+    color: white;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.functionbuttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign {
+    height: 30px;
+    width: 30px;
+    background-color: #e14013;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign i {
+    font-size: 0.8rem;
+    font-weight: light;
+}
+
+
+
+.herosection {
+    display: flex;
+    background-image: url(hackimg2.jpg);
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.img-cont{
+    height: 280px;
+    width: 250px;
+    background-image: url(truck.jpg);
+    margin: 20px;
+    border-radius: 15px;
+    background-size: contain;
+}
+.content1 {
+    height: 300px;
+    width: 500px;
+}
+.path {
+    background-color: white;
+    width: 450px;
+    height: 220px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.heading {
+    margin: 20px;
+    color: #283747;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2d1ea;
+    width: 800px;
+    height: 360px;
+}
+
+
+
+.footer {
+    background-color: #283747;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
